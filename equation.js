@@ -2,7 +2,7 @@
             const img = document.getElementById('dinausores');
             const classeSol = document.querySelector('.solution1').offsetWidth;
             const largIm = img.offsetWidth;
-            img.style.transition = 'left 15s linear';
+            img.style.transition = 'left 5s linear';
             img.style.left = (classeSol - largIm) + 'px';
         }
 
@@ -10,7 +10,7 @@
             const img = document.getElementById('aigle');
             const aigle = document.querySelector('.solution2').offsetWidth;
             const largIm = img.offsetWidth;
-            img.style.transition = 'right 15s linear';
+            img.style.transition = 'right 5s linear';
             img.style.right = (aigle- largIm) + 'px';
         }
         
